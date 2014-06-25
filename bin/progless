@@ -6,8 +6,8 @@ use warnings;
 
 use Perinci::CmdLine 1.04;
 
-our $DATE = '2014-06-24'; # DATE
-our $VERSION = '0.01'; # VERSION
+our $DATE = '2014-06-25'; # DATE
+our $VERSION = '0.02'; # VERSION
 
 our %SPEC;
 $SPEC{progless} = {
@@ -32,10 +32,10 @@ _
             req => 1,
             pos => 0,
             completion => sub {
-                require SHARYANTO::Complete::Util;
+                require Complete::Util;
                 my %args = @_;
-                SHARYANTO::Complete::Util::mimic_shell_dir_completion(
-                    completion => SHARYANTO::Complete::Util::complete_program(
+                Complete::Util::mimic_shell_dir_completion(
+                    completion => Complete::Util::complete_program(
                         word      => $args{word},
                     )
                 );
@@ -71,7 +71,7 @@ progless - Show program file with less
 
 =head1 VERSION
 
-This document describes version 0.01 of progless (from Perl distribution App-ProgUtils), released on 2014-06-24.
+This document describes version 0.02 of progless (from Perl distribution App-ProgUtils), released on 2014-06-25.
 
 =head1 SYNOPSIS
 
