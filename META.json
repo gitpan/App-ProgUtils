@@ -29,7 +29,7 @@
       },
       "runtime" : {
          "requires" : {
-            "Complete::Util" : "0",
+            "Complete::Util" : "0.06",
             "File::Which" : "0",
             "Perinci::CmdLine" : "1.04",
             "String::ShellQuote" : "0",
@@ -57,7 +57,7 @@
          "web" : "https://github.com/sharyanto/perl-App-ProgUtils"
       }
    },
-   "version" : "0.02",
+   "version" : "0.03",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.018002"
