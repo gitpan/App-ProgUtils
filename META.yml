@@ -26,7 +26,7 @@ resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=App-ProgUtils
   homepage: https://metacpan.org/release/App-ProgUtils
   repository: git://github.com/sharyanto/perl-App-ProgUtils.git
-version: '0.03'
+version: '0.04'
 x_Dist_Zilla:
   perl:
     version: '5.018002'
@@ -219,7 +219,7 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::Rinci::Validate
       name: '@Author::SHARYANTO/Rinci::Validate'
-      version: '0.13'
+      version: '0.14'
     -
       class: Dist::Zilla::Plugin::SHARYANTO::OurPkgVersion
       name: '@Author::SHARYANTO/SHARYANTO::OurPkgVersion'
