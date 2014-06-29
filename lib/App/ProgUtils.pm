@@ -4,18 +4,18 @@ use 5.010001;
 use strict;
 use warnings;
 
-our $VERSION = '0.04'; # VERSION
-our $DATE = '2014-06-27'; # DATE
+our $VERSION = '0.05'; # VERSION
+our $DATE = '2014-06-29'; # DATE
 
 our $_complete_program = sub {
     require Complete::Util;
     my %args = @_;
     Complete::Util::mimic_shell_dir_completion(
-        completion => Complete::Util::complete_program(
+        Complete::Util::complete_program(
             word      => $args{word},
             ci        => 1,
         )
-    );
+      );
 };
 
 1;
@@ -33,7 +33,7 @@ App::ProgUtils - Command line to manipulate programs in PATH
 
 =head1 VERSION
 
-This document describes version 0.04 of App::ProgUtils (from Perl distribution App-ProgUtils), released on 2014-06-27.
+This document describes version 0.05 of App::ProgUtils (from Perl distribution App-ProgUtils), released on 2014-06-29.
 
 =head1 SYNOPSIS
 
