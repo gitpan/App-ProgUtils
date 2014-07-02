@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!perl
 
 use 5.010;
 use strict;
@@ -7,8 +7,8 @@ use warnings;
 use App::ProgUtils;
 use Perinci::CmdLine 1.04;
 
-our $DATE = '2014-06-29'; # DATE
-our $VERSION = '0.05'; # VERSION
+our $DATE = '2014-07-02'; # DATE
+our $VERSION = '0.06'; # VERSION
 
 our %SPEC;
 $SPEC{progedit} = {
@@ -71,7 +71,7 @@ progedit - Launch editor for program
 
 =head1 VERSION
 
-This document describes version 0.05 of progedit (from Perl distribution App-ProgUtils), released on 2014-06-29.
+This document describes version 0.06 of progedit (from Perl distribution App-ProgUtils), released on 2014-07-02.
 
 =head1 SYNOPSIS
 

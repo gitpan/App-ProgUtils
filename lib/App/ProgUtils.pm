@@ -4,8 +4,8 @@ use 5.010001;
 use strict;
 use warnings;
 
-our $VERSION = '0.05'; # VERSION
-our $DATE = '2014-06-29'; # DATE
+our $VERSION = '0.06'; # VERSION
+our $DATE = '2014-07-02'; # DATE
 
 our $_complete_program = sub {
     require Complete::Util;
@@ -33,7 +33,7 @@ App::ProgUtils - Command line to manipulate programs in PATH
 
 =head1 VERSION
 
-This document describes version 0.05 of App::ProgUtils (from Perl distribution App-ProgUtils), released on 2014-06-29.
+This document describes version 0.06 of App::ProgUtils (from Perl distribution App-ProgUtils), released on 2014-07-02.
 
 =head1 SYNOPSIS
 
