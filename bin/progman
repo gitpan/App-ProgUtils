@@ -7,8 +7,8 @@ use warnings;
 use App::ProgUtils;
 use Perinci::CmdLine 1.04;
 
-our $DATE = '2014-07-02'; # DATE
-our $VERSION = '0.06'; # VERSION
+our $DATE = '2014-07-11'; # DATE
+our $VERSION = '0.07'; # VERSION
 
 our %SPEC;
 $SPEC{progman} = {
@@ -67,7 +67,7 @@ progman - Show manpage for program
 
 =head1 VERSION
 
-This document describes version 0.06 of progman (from Perl distribution App-ProgUtils), released on 2014-07-02.
+This document describes version 0.07 of progman (from Perl distribution App-ProgUtils), released on 2014-07-11.
 
 =head1 SYNOPSIS
 

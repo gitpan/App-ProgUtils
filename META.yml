@@ -17,7 +17,7 @@ meta-spec:
   version: '1.4'
 name: App-ProgUtils
 requires:
-  Complete::Util: '0.10'
+  Complete::Util: '0.12'
   File::Which: '0'
   Perinci::CmdLine: '1.04'
   String::ShellQuote: '0'
@@ -26,7 +26,7 @@ resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=App-ProgUtils
   homepage: https://metacpan.org/release/App-ProgUtils
   repository: git://github.com/sharyanto/perl-App-ProgUtils.git
-version: '0.06'
+version: '0.07'
 x_Dist_Zilla:
   perl:
     version: '5.018002'
