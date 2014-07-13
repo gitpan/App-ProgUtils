@@ -4,7 +4,7 @@
       "Steven Haryanto <stevenharyanto@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 5.019, CPAN::Meta::Converter version 2.141170",
+   "generated_by" : "Dist::Zilla version 5.019, CPAN::Meta::Converter version 2.141520",
    "license" : [
       "perl_5"
    ],
@@ -29,8 +29,9 @@
       },
       "runtime" : {
          "requires" : {
-            "Complete::Util" : "0.12",
+            "Complete::Util" : "0.13",
             "File::Which" : "0",
+            "List::MoreUtils" : "0",
             "Perinci::CmdLine" : "1.04",
             "String::ShellQuote" : "0",
             "perl" : "5.010001"
@@ -57,7 +58,7 @@
          "web" : "https://github.com/sharyanto/perl-App-ProgUtils"
       }
    },
-   "version" : "0.07",
+   "version" : "0.08",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.018002"
@@ -322,7 +323,7 @@
                }
             },
             "name" : "@Author::SHARYANTO/Test::Compile",
-            "version" : "2.040"
+            "version" : "2.043"
          },
          {
             "class" : "Dist::Zilla::Plugin::Test::Rinci",

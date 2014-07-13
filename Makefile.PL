@@ -17,15 +17,16 @@ my %WriteMakefileArgs = (
   },
   "DISTNAME" => "App-ProgUtils",
   "EXE_FILES" => [
-    "bin/progless",
+    "bin/progman",
     "bin/progedit",
-    "bin/progman"
+    "bin/progless"
   ],
   "LICENSE" => "perl",
   "NAME" => "App::ProgUtils",
   "PREREQ_PM" => {
-    "Complete::Util" => "0.12",
+    "Complete::Util" => "0.13",
     "File::Which" => 0,
+    "List::MoreUtils" => 0,
     "Perinci::CmdLine" => "1.04",
     "String::ShellQuote" => 0
   },
@@ -35,7 +36,7 @@ my %WriteMakefileArgs = (
     "IPC::Open3" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "0.07",
+  "VERSION" => "0.08",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -43,11 +44,12 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
-  "Complete::Util" => "0.12",
+  "Complete::Util" => "0.13",
   "File::Spec" => 0,
   "File::Which" => 0,
   "IO::Handle" => 0,
   "IPC::Open3" => 0,
+  "List::MoreUtils" => 0,
   "Perinci::CmdLine" => "1.04",
   "String::ShellQuote" => 0,
   "Test::More" => 0

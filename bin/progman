@@ -7,8 +7,8 @@ use warnings;
 use App::ProgUtils;
 use Perinci::CmdLine 1.04;
 
-our $DATE = '2014-07-11'; # DATE
-our $VERSION = '0.07'; # VERSION
+our $DATE = '2014-07-13'; # DATE
+our $VERSION = '0.08'; # VERSION
 
 our %SPEC;
 $SPEC{progman} = {
@@ -20,11 +20,12 @@ Basically
 
     % progman PROG
 
-is the same as:
+is roughly the same as:
 
     % man `which PROG`
 
-except that `progman` offers tab completion.
+except that it offers tab completion and can also search PROG in the current
+directory or normal path (e.g. `progless ../bin/foo`).
 
 _
     args => {
@@ -40,10 +41,8 @@ _
     },
 };
 sub progman {
-    require File::Which;
-
     my %args = @_;
-    exec "man", File::Which::which($args{program});
+    exec "man", App::ProgUtils::_search_program($args{program});
     # [200]; # unreached
 }
 
@@ -67,7 +66,7 @@ progman - Show manpage for program
 
 =head1 VERSION
 
-This document describes version 0.07 of progman (from Perl distribution App-ProgUtils), released on 2014-07-11.
+This document describes version 0.08 of progman (from Perl distribution App-ProgUtils), released on 2014-07-13.
 
 =head1 SYNOPSIS
 
