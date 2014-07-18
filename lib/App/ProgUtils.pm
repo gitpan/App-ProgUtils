@@ -1,7 +1,7 @@
 package App::ProgUtils;
 
-our $DATE = '2014-07-13'; # DATE
-our $VERSION = '0.08'; # VERSION
+our $DATE = '2014-07-18'; # DATE
+our $VERSION = '0.09'; # VERSION
 
 use 5.010001;
 use strict;
@@ -14,9 +14,8 @@ our $_complete_program = sub {
     my %args = @_;
 
     my $word = $args{word} // '';
-    my $completion;
-    my $is_path;
 
+    # combine all executables (including dirs) and programs in PATH
     my $c1 = Complete::Util::complete_file(
         word   => $word,
         filter => sub { -x $_[0] },
@@ -59,7 +58,7 @@ App::ProgUtils - Command line to manipulate programs in PATH
 
 =head1 VERSION
 
-This document describes version 0.08 of App::ProgUtils (from Perl distribution App-ProgUtils), released on 2014-07-13.
+This document describes version 0.09 of App::ProgUtils (from Perl distribution App-ProgUtils), released on 2014-07-18.
 
 =head1 SYNOPSIS
 
