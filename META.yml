@@ -20,14 +20,15 @@ requires:
   Complete::Util: '0.13'
   File::Which: '0'
   List::MoreUtils: '0'
-  Perinci::CmdLine::Lite: '0.02'
+  Perinci::CmdLine::Any: '0.06'
+  Rinci: v1.1.0
   String::ShellQuote: '0'
   perl: '5.010001'
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=App-ProgUtils
   homepage: https://metacpan.org/release/App-ProgUtils
   repository: git://github.com/sharyanto/perl-App-ProgUtils.git
-version: '0.10'
+version: '0.11'
 x_Dist_Zilla:
   perl:
     version: '5.018001'

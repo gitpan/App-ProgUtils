@@ -1,7 +1,7 @@
 package App::ProgUtils;
 
-our $DATE = '2014-07-29'; # DATE
-our $VERSION = '0.10'; # VERSION
+our $DATE = '2014-08-16'; # DATE
+our $VERSION = '0.11'; # VERSION
 
 use 5.010001;
 use strict;
@@ -58,7 +58,7 @@ App::ProgUtils - Command line to manipulate programs in PATH
 
 =head1 VERSION
 
-This document describes version 0.10 of App::ProgUtils (from Perl distribution App-ProgUtils), released on 2014-07-29.
+This document describes version 0.11 of App::ProgUtils (from Perl distribution App-ProgUtils), released on 2014-08-16.
 
 =head1 SYNOPSIS
 
