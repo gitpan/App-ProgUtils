@@ -4,7 +4,7 @@
       "perlancar <perlancar@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 5.019, CPAN::Meta::Converter version 2.141170",
+   "generated_by" : "Dist::Zilla version 5.019, CPAN::Meta::Converter version 2.141520",
    "license" : [
       "perl_5"
    ],
@@ -55,11 +55,11 @@
       "homepage" : "https://metacpan.org/release/App-ProgUtils",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/perlancar/perl-App-ProgUtils.git",
-         "web" : "https://github.com/perlancar/perl-App-ProgUtils"
+         "url" : "git://github.com/sharyanto/perl-App-ProgUtils.git",
+         "web" : "https://github.com/sharyanto/perl-App-ProgUtils"
       }
    },
-   "version" : "0.12",
+   "version" : "0.13",
    "x_Dist_Zilla" : {
       "perl" : {
          "version" : "5.018002"
@@ -329,7 +329,7 @@
                }
             },
             "name" : "@Author::PERLANCAR/Test::Compile",
-            "version" : "2.040"
+            "version" : "2.043"
          },
          {
             "class" : "Dist::Zilla::Plugin::Test::Rinci",

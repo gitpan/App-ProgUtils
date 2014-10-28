@@ -1,7 +1,7 @@
 package App::ProgUtils;
 
-our $DATE = '2014-09-16'; # DATE
-our $VERSION = '0.12'; # VERSION
+our $DATE = '2014-10-27'; # DATE
+our $VERSION = '0.13'; # VERSION
 
 use 5.010001;
 use strict;
@@ -58,12 +58,13 @@ App::ProgUtils - Command line to manipulate programs in PATH
 
 =head1 VERSION
 
-This document describes version 0.12 of App::ProgUtils (from Perl distribution App-ProgUtils), released on 2014-09-16.
+This document describes version 0.13 of App::ProgUtils (from Perl distribution App-ProgUtils), released on 2014-10-27.
 
 =head1 SYNOPSIS
 
 This distribution provides the following command-line utilities:
 
+ progcat
  progedit
  progless
  progman
@@ -71,13 +72,15 @@ This distribution provides the following command-line utilities:
 
 =head1 SEE ALSO
 
+L<App::PMUtils>, a similarly spirited distribution.
+
 =head1 HOMEPAGE
 
 Please visit the project's homepage at L<https://metacpan.org/release/App-ProgUtils>.
 
 =head1 SOURCE
 
-Source repository is at L<https://github.com/perlancar/perl-App-ProgUtils>.
+Source repository is at L<https://github.com/sharyanto/perl-App-ProgUtils>.
 
 =head1 BUGS
 

@@ -6,6 +6,7 @@ META.json
 META.yml
 Makefile.PL
 README
+bin/progcat
 bin/progedit
 bin/progless
 bin/progman

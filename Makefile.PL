@@ -17,10 +17,11 @@ my %WriteMakefileArgs = (
   },
   "DISTNAME" => "App-ProgUtils",
   "EXE_FILES" => [
+    "bin/progman",
     "bin/progpath",
-    "bin/progless",
     "bin/progedit",
-    "bin/progman"
+    "bin/progcat",
+    "bin/progless"
   ],
   "LICENSE" => "perl",
   "NAME" => "App::ProgUtils",
@@ -38,7 +39,7 @@ my %WriteMakefileArgs = (
     "IPC::Open3" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "0.12",
+  "VERSION" => "0.13",
   "test" => {
     "TESTS" => "t/*.t"
   }
