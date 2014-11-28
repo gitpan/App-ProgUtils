@@ -2,8 +2,8 @@ NAME
     App::ProgUtils - Command line to manipulate programs in PATH
 
 VERSION
-    This document describes version 0.13 of App::ProgUtils (from Perl
-    distribution App-ProgUtils), released on 2014-10-27.
+    This document describes version 0.14 of App::ProgUtils (from Perl
+    distribution App-ProgUtils), released on 2014-11-28.
 
 SYNOPSIS
     This distribution provides the following command-line utilities:

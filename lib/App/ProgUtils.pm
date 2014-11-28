@@ -1,7 +1,7 @@
 package App::ProgUtils;
 
-our $DATE = '2014-10-27'; # DATE
-our $VERSION = '0.13'; # VERSION
+our $DATE = '2014-11-28'; # DATE
+our $VERSION = '0.14'; # VERSION
 
 use 5.010001;
 use strict;
@@ -27,7 +27,7 @@ our $_complete_program = sub {
     );
 
     {
-        completion => [ List::MoreUtils::uniq(sort(@$c1, @$c2)) ],
+        words      => [ List::MoreUtils::uniq(sort(@$c1, @$c2)) ],
         path_sep   => '/',
     };
 };
@@ -58,7 +58,7 @@ App::ProgUtils - Command line to manipulate programs in PATH
 
 =head1 VERSION
 
-This document describes version 0.13 of App::ProgUtils (from Perl distribution App-ProgUtils), released on 2014-10-27.
+This document describes version 0.14 of App::ProgUtils (from Perl distribution App-ProgUtils), released on 2014-11-28.
 
 =head1 SYNOPSIS
 
